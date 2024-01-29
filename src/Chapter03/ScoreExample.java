@@ -1,6 +1,6 @@
 package Chapter03;
 
-public class SmapleClass {
+public class ScoreExample {
     public static void main(String[] args) {
 //        int score = 95;
 //        char grade = (score>95)?'A': 'B';
