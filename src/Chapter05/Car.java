@@ -1,0 +1,43 @@
+package Chapter05;
+
+import javax.print.attribute.standard.SheetCollate;
+
+public class Car {
+    String company;
+    int speed = 100;
+    String sw = "Hyundai Mobis";
+    String color = "Black";
+    String owner = "TaeYun Kim";
+
+    Sheet sheet;
+
+    Car(String company, int speed, String color, String owner, String sheet) {
+        this.company = company;
+        this.speed = speed;
+        this.color = color;
+        this.owner = owner;
+
+    }
+
+    Car(){
+        company = "shevolet";
+        speed = 120;
+        color = "gray";
+        owner = "JongHo Park";
+        sheet = new Sheet("type");
+    }
+
+    void changeSoftware() {
+        sw = "튜닝의 끝은 순정이란다";
+    }
+
+    void changeColor(String color) {
+        color = "양카 만들지 마라";
+    }
+
+    void printSpec() {
+        System.out.println("company = " + company + ", " + "speed = " + speed + ", "
+                + "color = " + " " + color + ", " + "owner = " + owner+", "+"sheet = "+sheet);
+    }
+}
+
