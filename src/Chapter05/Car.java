@@ -1,15 +1,13 @@
 package Chapter05;
 
-import javax.print.attribute.standard.SheetCollate;
-
 public class Car {
     String company;
     int speed = 100;
     String sw = "Hyundai Mobis";
     String color = "Black";
     String owner = "TaeYun Kim";
+    String sheet = "cool";
 
-    Sheet sheet;
 
     Car(String company, int speed, String color, String owner, String sheet) {
         this.company = company;
@@ -19,12 +17,12 @@ public class Car {
 
     }
 
-    Car(){
+    Car() {
         company = "shevolet";
         speed = 120;
         color = "gray";
         owner = "JongHo Park";
-        sheet = new Sheet("type");
+        Sheet sheet = new Sheet("type");
     }
 
     void changeSoftware() {
@@ -37,7 +35,8 @@ public class Car {
 
     void printSpec() {
         System.out.println("company = " + company + ", " + "speed = " + speed + ", "
-                + "color = " + " " + color + ", " + "owner = " + owner+", "+"sheet = "+sheet);
+                + "color = " + " " + color + ", " + "owner = " + owner + ", " + "sheet = "+"bage");
     }
+
 }
 
