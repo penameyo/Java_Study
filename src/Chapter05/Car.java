@@ -33,6 +33,15 @@ public class Car {
         color = "양카 만들지 마라";
     }
 
+    public void setSpeed(int speed){
+        if(speed<0){
+            this.speed = 0;
+        }
+        else {
+            this.speed = speed;
+        }
+    }
+
     void printSpec() {
         System.out.println("company = " + company + ", " + "speed = " + speed + ", "
                 + "color = " + " " + color + ", " + "owner = " + owner + ", " + "sheet = "+"bage");
