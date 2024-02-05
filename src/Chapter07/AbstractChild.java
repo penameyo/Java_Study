@@ -5,4 +5,8 @@ public class AbstractChild extends AbstractParent{
     void print() {
 
     }
+
+    public static class AbstractAB // 여러개 상속은 불가!AbstractA, AbstractB
+     {
+    }
 }
