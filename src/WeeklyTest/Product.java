@@ -13,4 +13,16 @@ public class Product {
         this.weight = weight;
     }
 
+    public int getPrice() {
+        return 0;
+    }
+
+    public double getWeight(){
+        return weight;
+    }
+
+    public int getDiscountAmount(){
+        return 0;
+    }
+
 }
