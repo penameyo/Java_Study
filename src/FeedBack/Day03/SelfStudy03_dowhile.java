@@ -1,4 +1,4 @@
-package FeedBack;
+package FeedBack.Day03;
 
 public class SelfStudy03_dowhile {
     public static void main(String[] args) {

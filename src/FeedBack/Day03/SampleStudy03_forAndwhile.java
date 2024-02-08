@@ -1,4 +1,4 @@
-package FeedBack;
+package FeedBack.Day03;
 
 public class SampleStudy03_forAndwhile {
     public static void main(String[] args) {

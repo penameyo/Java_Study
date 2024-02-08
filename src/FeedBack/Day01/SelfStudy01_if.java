@@ -1,4 +1,4 @@
-package FeedBack;
+package FeedBack.Day01;
 
 public class SelfStudy01_if {
 	public static void main(String[] args) {
