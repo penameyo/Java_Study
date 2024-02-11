@@ -12,10 +12,6 @@ public class Scan {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         int c = scanner.nextInt();
-
-
-
-        }
     }
 }
 
