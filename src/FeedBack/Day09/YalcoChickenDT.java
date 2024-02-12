@@ -1,4 +1,4 @@
-package FeedBack.Day09.ex01;
+package FeedBack.Day09;
 
 public final class YalcoChickenDT extends YalcoChicken {
     public YalcoChickenDT(int no, String name) {

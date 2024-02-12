@@ -1,4 +1,4 @@
-package FeedBack.Day09.ex01;
+package FeedBack.Day09;
 
     public class YalcoChicken {
         protected static final String CREED = "우리의 튀김옷은 얄팍하다.";
