@@ -1,4 +1,4 @@
-package WeeklyTest;
+package weeklytest01;
 
 import Chapter07.Calculator;
 

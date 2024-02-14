@@ -1,7 +1,6 @@
-package WeeklyTest;
+package weeklytest01;
 
-import WeeklyTest.util.Calculator;
-import WeeklyTest.util.Calculator;
+import weeklytest01.util.Calculator;
 
 public class OrderService {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package WeeklyTest.util;
+package weeklytest01.util;
 
 public class Calculator {
     public static int getDeliveryCharge(double weight, int price) {

@@ -1,7 +1,7 @@
-package WeeklyTest;
+package weeklytest01;
 
-public class LargeAppliance extends Product {
-    public LargeAppliance(String name, int price, double weight) {
+public class Grocery extends Product {
+    public Grocery(String name, int price, double weight) {
         super(name, price, weight);
     }
 

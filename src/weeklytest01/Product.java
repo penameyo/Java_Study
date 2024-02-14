@@ -1,6 +1,4 @@
-package WeeklyTest;
-
-import java.math.BigDecimal;
+package weeklytest01;
 
 public class Product {
     String name;
