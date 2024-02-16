@@ -1,6 +1,7 @@
 package Chapter12.hashmap;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
@@ -14,11 +15,19 @@ public class MapExample {
         System.out.println(hashmap);
 
         boolean isContains = hashmap.containsKey("Key가 없는데요?");
-        System.out.println("isContains= "+isContains);
+        System.out.println("isContains= " + isContains);
         boolean containsValue = hashmap.containsValue(3);
-        System.out.println("containsValue = "+containsValue);
+        System.out.println("containsValue = " + containsValue);
 
         Set<String> keyset = hashmap.keySet();
         System.out.println(keyset);
+
+        Iterator<String> iterator = hashmap.keySet().iterator();
+        while (iterator.hasNext()) {
+            String key = iterator.next();
+            Integer value = hashmap.get(key);
+            System.out.println(key + ":" + value);
+        }
+
     }
 }
